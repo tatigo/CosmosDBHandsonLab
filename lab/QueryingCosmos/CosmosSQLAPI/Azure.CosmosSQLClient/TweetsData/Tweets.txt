@@ -1,0 +1,5 @@
+﻿#MariaDB TX is challenging the heavyweights by offering features previously only available in proprietary #databases.
+B2B marketers generate every day, an average of 45% of leads that are added to #marketing #databases includes invalid, duplicate or incomplete data.
+Learn about continuous, #realtimedata movement to #Azure SQL #DataWarehouse, #databases, and other analytics services, at #StrataData NY next week. Schedule a demo: https://hubs.ly/H0dGLFJ0
+#CosmosDB, a Highly Available #NoSQL Option with Great Flexibility. https://youtu.be/OklIMy8HAe8  via @YouTube
+Data Migration: Azure Blob Storage to Azure Cosmos DB database using Azure Data Factor (ADFv2) https://goo.gl/b6aWxt  #Azure #CosmosDB #NoSQL #BigData #Storage
