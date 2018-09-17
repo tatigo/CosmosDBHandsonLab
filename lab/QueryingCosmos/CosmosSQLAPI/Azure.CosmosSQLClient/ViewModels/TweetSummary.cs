@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Azure.CosmosSQL.Models
+namespace Azure.CosmosSQL.ViewModels
 {
     class TweetSummary
     {

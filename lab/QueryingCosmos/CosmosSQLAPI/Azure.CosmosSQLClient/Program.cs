@@ -1,4 +1,5 @@
 ﻿using Azure.CosmosSQL.Models;
+using Azure.CosmosSQL.ViewModels;
 using Microsoft.Azure.Documents;
 using Microsoft.Azure.Documents.Client;
 using Microsoft.Azure.Documents.Linq;
