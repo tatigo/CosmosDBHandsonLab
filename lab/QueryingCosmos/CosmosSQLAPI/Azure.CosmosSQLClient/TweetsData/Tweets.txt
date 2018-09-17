@@ -3,3 +3,33 @@ B2B marketers generate every day, an average of 45% of leads that are added to #
 Learn about continuous, #realtimedata movement to #Azure SQL #DataWarehouse, #databases, and other analytics services, at #StrataData NY next week. Schedule a demo: https://hubs.ly/H0dGLFJ0
 #CosmosDB, a Highly Available #NoSQL Option with Great Flexibility. https://youtu.be/OklIMy8HAe8  via @YouTube
 Data Migration: Azure Blob Storage to Azure Cosmos DB database using Azure Data Factor (ADFv2) https://goo.gl/b6aWxt  #Azure #CosmosDB #NoSQL #BigData #Storage
+If you work in manufacturing, live in Calgary and are interested in attending an IoT / AI Data workshop on Oct 23, please contact AI@Lixar.com.  hashtag#Manufacturing hashtag#IoT hashtag#IoTanalytics hashtag#Data hashtag#AI Or contact the Lixar team through Linkedin:  Sherif Messiha George Logaras Stéphan Ringuette
+Start building intelligence into your solutions with the Microsoft #AI platform. 
+The best digital projects pay for themselves. Check out the new independent study by @forrester explaining how @episerver customers can get 443% ROI in just 3 years. #Azure
+Build intelligent #apps quickly and easily with #Azure Cognitive Services. Try it free now:
+See the different approaches your business can take in the transition to #IoT in this eBook: http://msft.social/h0vKB1
+Migrate your #apps to #Azure and see why 70% of ISVs are changing their pricing models. Find out how to get started: http://msft.social/EP0WCW
+Join @onovotny and @csharpfritz now on our livestream showing you how to set up Azure Pipelines for your @GitHub projects #AzureDevOps
+Live now at the Azure DevOps Training Workshop: @DonovanBrown introduces us to Azure DevOps as he demos how to sign-up, get started, and explores the new set of services. Tune in: http://msft.social/GaQBWm
+Securely connect to corporate resources without a #VPN. Get started with @LuminateSec Secure Access Cloud Connector in @AzureMktPlace today.
+Check out the 50 new offers now available in the #AzureMktPlace: http://msft.social/7cXfmk
+Stopping bears with @Azure and @MicrosoftIoT and a @Raspberry_Pi  motion detector: how I did it
+MS Technical Fellow @JSnover and his enthusiasm for all things Azure are so infectious, even his #MSIgnite bloopers are charming:
+Looking to take your #app portfolio to the #cloud? Follow the proven methods in our Enterprise Cloud Strategy eBook: http://msft.social/JSJUl6
+Are you ready to take the first steps on your #DataScience journey? Sign up for the introductory course from @edXOnline:
+Enable fast and successful #Azure migration with #Turbonomic. Watch and learn how to assess, migrate and optimize your hybrid environments:
+Find the right path for your #cloud migration using #Azure. Watch the on-demand webinar: http://msft.social/etwUZV
+Are you looking to kickstart your journey into #AI development? Get started with our free AI Bootcamp:
+Learn how to secure Kubernetes workloads in hybrid settings with @Aporeto.  http://msft.social/ixfl5i  #AKS #K8s
+Get an introduction to the #AzureIoT Device Simulation tool with this free course from #IoT School:
+Download our #dotNET #Microservices guide to explore architectural design & implementation approaches with containers: http://msft.social/r9KoLF
+Wondering how to deploy #JHipster apps to #Azure? Check out this documentation: http://msft.social/dK7bCw
+Did you miss any #Azure news or announcements? Azure.Source has you covered: http://msft.social/gARrxb
+Learn what earned @MetroQuest a Top 20 #SmartCities Solution Award from CIOReview for engaging citizens online: http://msft.social/clQTUT
+Learn how the @CISecurity Hardened Image for #RedHat Enterprise Linux 7 on Azure keeps your computing environment safe & secure: http://msft.social/Ja4Het
+Bring your teams together in an interactive workspace with #Azure #Databricks. Get it here: http://msft.social/ZAhlq1
+Dive into interactive #AI demos that showcase the various capabilities of the #MicrosoftAI platform. Get started: http://msft.social/88XZNz
+Discover how #AI and #MachineLearning are being used to streamline and improve healthcare operations: http://msft.social/oECTrH
+Discover how to design your #cloud solution with these #Azure best practices and advanced solutions: http://msft.social/Q4L0hx
+Freshen up your #Azure #IoT knowledge or learn something new with our free, on-demand course:
+Download our #developer's guide to address your #IoT needs and build your solution quickly and easily: http://msft.social/RWMPuS

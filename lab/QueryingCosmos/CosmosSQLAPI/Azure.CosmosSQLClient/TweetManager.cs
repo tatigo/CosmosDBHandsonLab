@@ -8,7 +8,13 @@ namespace Azure.CosmosSQL
 {
     public static class TweetManager
     {
-        public static List<Tweet> BullkCreateTweets()
+        private static readonly string[] users = new string[] {"AzureDev", "CosmosDev", "SQLGuru","MicrosoftDevelopers"};
+        private static readonly int[] followers = new int[] { 50000, 20000, 10000, 70000 };
+        private static readonly int[] friends = new int[] { 5000, 3000, 8000, 9000 };
+        private static readonly string[] language = new string[] { "en", "fr", "de", "ge" };
+        private static readonly string[] usersProfilesUrls = new string[] { "https://pbs001.twimg.com/", "https://pbs002.twimg.com/", "https://pbs003.twimg.com/", "https://pbs004.twimg.com/" };
+
+        public static List<Tweet> CreateMultipleTweets()
         {
             String line;
             try
@@ -58,17 +64,18 @@ namespace Azure.CosmosSQL
         private static User CreateUser()
         {
             Random r = new Random();
+            int userIndex = r.Next(0, users.Length);
 
             User user = new User()
             {
-                id = r.Next(),
-                name = "CosmosDev",
-                screenName = "CosmosDev",
-                verified = true,
-                followersCount = 10000,
-                friendsCount = 500,
-                lang = "en",
-                profileImageUrl = "https://pbs.twimg.com/"
+                Id = r.Next(),
+                Name = users[userIndex].ToString(),
+                ScreenName = users[userIndex].ToString(),
+                Verified = true,
+                FollowersCount = followers[userIndex],
+                FriendsCount = friends[userIndex],
+                Lang = language[userIndex],
+                ProfileImageUrl = usersProfilesUrls[userIndex]
             };
 
             return user;

@@ -26,18 +26,11 @@ namespace Azure.CosmosSQL
 
             try
             {
-                /****** Create a Document **********************************/
-                
-                var tweet = TweetManager.CreateTweet("#Cosmo SQL API Level 500 training at #Mississauga");
-                CreateDocument(tweet).ConfigureAwait(false);
+                /******* Create Documents**************/
 
-                /*********Create a Document**********************************
+                //CreateDocuments().ConfigureAwait(false);
 
-                /******* Bulk Uploading Documents**************/
-
-                //UploadBulkUploadDocuments().ConfigureAwait(false);
-
-                /*******  Bulk Uploading Documents***********/
+                /*******  Create Documents***********/
 
 
                 /*******  Query Document By Document Id*****************/
@@ -72,12 +65,22 @@ namespace Azure.CosmosSQL
                 /********* UPSERT DOCUMENTS********************************/
 
                 /********************* DELETE DOCUMENT ****************************/
-                var documentToDelete = "8685a809-83f9-48e6-a8b5-c189e35060c4";
-                DeleteDocument(documentToDelete).ConfigureAwait(false);
+                //var documentToDelete = "8685a809-83f9-48e6-a8b5-c189e35060c4";
+                //DeleteDocument(documentToDelete).ConfigureAwait(false);
 
                 /*************************************************************/
 
-                /*******************************************************************/
+                /***************************Query Documents (Tweets) By User*******************************/
+                var tweets = GetTweetsByUser("AzureDev");
+
+                foreach (var tweet in tweets)
+                {
+                    Console.WriteLine(tweet.UserName + "-" + tweet.Message + "\n");
+                }
+
+                /***************************Query Documents (Tweets) By HashTag*******************************/
+
+                /***************************Query Documents (Tweets) By HashTag*******************************/
                 //Console.WriteLine("1.4 - Query Documents (Tweets) By HashTag Start");
                 //var tweets = GetTweetByHashTag("#Azure");
 
@@ -86,7 +89,7 @@ namespace Azure.CosmosSQL
                 //    Console.WriteLine(tweet.UserName + "-" + tweet.Message + "\n");
                 //}
 
-                //Console.WriteLine("1.2 - Query Documents (Tweets) By HashTag Complete");
+                /***************************Query Documents (Tweets) By HashTag*******************************/
 
             }
             catch (ArgumentException aex)
@@ -97,19 +100,19 @@ namespace Azure.CosmosSQL
             Console.ReadKey();
         }
 
-        #region "Bulk Upload Documents"
-        private static async Task UploadBulkUploadDocuments()
+        #region "Create Documents"
+        private static async Task CreateDocuments()
         {
-            List<Tweet> tweets = TweetManager.BullkCreateTweets();
+            List<Tweet> tweets = TweetManager.CreateMultipleTweets();
 
             foreach (var tweet in tweets)
             {
-                await CreateDocument(tweet);
+               await CreateDocument(tweet);
             }
         }
         #endregion
 
-        #region "Create Document"
+        #region "Create a Single Document"
         /// <summary>
         /// Create Document in Cosmos DB.
         /// </summary>
@@ -235,6 +238,33 @@ namespace Azure.CosmosSQL
         }
         #endregion
 
+        #region "SQL Query - SELECT"
+        /// <summary>
+        /// Retrives Tweets by User Name
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <returns></returns>
+        private static List<TweetSummary> GetTweetsByUser(string userName)
+        {
+            var sql = new SqlQuerySpec
+            {
+                QueryText = "SELECT value  { \"UserName\": t.user.name, \"Message\" : t.text} FROM t WHERE t.user.name = @userName",
+                Parameters = new SqlParameterCollection {
+                                new SqlParameter { Name = "@userName", Value = userName }
+                            }
+            };
+
+            var result = client.CreateDocumentQuery<TweetSummary>(
+                                        GetCollectionSelfLink(),
+                                        sql,
+                                        new FeedOptions { EnableCrossPartitionQuery = true }
+                                       ).ToList();
+
+            return result;
+        }
+        #endregion
+
+               
         #region "Advanced SQL Queries - JOIN"
         /// <summary>
         /// Uploads the tweet to Cosmos DB.
@@ -244,7 +274,7 @@ namespace Azure.CosmosSQL
         {
             var sql = new SqlQuerySpec
             {
-                QueryText = "SELECT value  { \"UserName\": t.User.name, \"Message\" : t.Text} FROM t JOIN h IN t.HashTags WHERE h.Text = @hashTag",
+                QueryText = "SELECT value  { \"UserName\": t.user.name, \"Message\" : t.text} FROM t JOIN h IN t.HashTags WHERE h.Text = @hashTag",
                             Parameters = new SqlParameterCollection {
                                 new SqlParameter { Name = "@hashTag", Value = hashTag.ToLower() }
                             }
