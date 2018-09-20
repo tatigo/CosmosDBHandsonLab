@@ -44,6 +44,20 @@ In this lab, you will create an Azure Cosmos DB account, database, and multiple 
 
     1. Click the **Create** button.
 
-  
+1. Next, Create New Collection by right clicking on the Database. In the new **Add Collection** blade, perform the following actions:
+
+	![Create Cosmos instance](./media/CreateCollection.PNG)
+
+	1. In the **Databaase id** field, choose the recently created database.
+	
+	1. In the **Collection Id** field, enter the collection Name.
+	
+	1. Select the Unlimited option for **Storage Capacity**
+	
+	1. In the **Partition key** field, specify the partition key (Property in the JSON document). 
+	
+	1. In the **Throughput**, enter 1000 RU/sec
+	
+	1. Click OK.
 
 1. Wait for the creation task to complete before completing this lab.
