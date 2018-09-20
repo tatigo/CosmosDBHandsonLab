@@ -23,7 +23,7 @@ Prior to starting these labs, you must have the following operating system and s
 
 *It is recommended to complete the labs in the order specified below:*
 
-- [Pre-lab: Creating an Azure Cosmos DB account](01-getting_started.md)
+- [Pre-lab: Creating an Azure Cosmos DB account](./pre-lab.md)
 - [Lab 1: Querying an Azure Cosmos DB Database using the SQL API](QueryingCosmos/CosmosSQLAPI/querying_the_database_using_sql.md)
 - [Lab 2: Change Feed Demo ](ChangeFeed/ChangeFeedDemo.md)
 - [Lab 3: Spark Connector](SparkConnectionsDemo/readme.md)
