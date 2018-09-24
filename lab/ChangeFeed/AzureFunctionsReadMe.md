@@ -9,9 +9,10 @@
 
 ---
 
-Steps for Creating Cosmos DB Trigger Azure Function:
+Steps for Creating Cosmos DB Trigger Azure Function
 
-1. Create Cosmos Trigger Azure Functions:
+1. Create Cosmos Trigger Azure Functions
+
 ![](./images/AzureFunctions-CreateProject-1.png)
 
 ![](./images/AzureFunctions-CosmosTrigger.png)
