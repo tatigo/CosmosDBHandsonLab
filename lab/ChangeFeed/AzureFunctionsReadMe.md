@@ -12,11 +12,11 @@
 Steps for Creating Cosmos DB Trigger Azure Function:
 
 1. Create Cosmos Trigger Azure Functions:
-![](././media/AzureFunctions-CreateProject-1.PNG)
+![](./images/AzureFunctions-CreateProject-1.PNG)
 
-![](././media/AzureFunctions-CosmosTrigger.PNG)
+![](./images/AzureFunctions-CosmosTrigger.PNG)
 
-1. Add the below code to the Run function:
+2. Add the below code to the Run function:
 
-![Add Code](././media/CosmosTriggerAzureFunctionCode.PNG)
+![Add Code](./images/CosmosTriggerAzureFunctionCode.PNG)
 
