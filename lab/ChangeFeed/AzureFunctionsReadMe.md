@@ -21,3 +21,7 @@ Steps for Creating Cosmos DB Trigger Azure Function
 
 ![Add Code](./images/CosmosTriggerAzureFunctionCode.png)
 
+
+3. Add the below Nuget packages to the Project.
+
+![Dependencies](./images/Nugetpackages.PNG)
