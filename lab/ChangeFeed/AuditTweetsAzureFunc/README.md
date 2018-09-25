@@ -22,7 +22,7 @@ Next, you create a function in the new function app.
 
 3. Configure the new trigger with the settings as specified in the table below the image.
 
-    ![Create the Azure Cosmos DB triggered function](./images/functions-create-cosmos-db-triggered-function/functions-cosmosdb-trigger-settings.png)
+    ![Create the Azure Cosmos DB triggered function](./images/functions-cosmosdb-trigger-settings.png)
     
     | Setting      | Suggested value  | Description                                |
     | ------------ | ---------------- | ------------------------------------------ |
@@ -101,7 +101,7 @@ After the collection specified in the function binding exists, you can test the 
 
 1. Switch to the first browser tab that contains your function in the portal. Expand the function logs and verify that the new document has triggered the function. See that the `task1` document ID value is written to the logs. 
 
-    ![View message in the logs.](./images/functions-create-cosmos-db-triggered-function/functions-cosmosdb-trigger-view-logs.png)
+    ![View message in the logs.](./images/functions-cosmosdb-trigger-view-logs.png)
 
 4. (Optional) Go back to your document, make a change, and click **Update**. Then, go back to the function logs and verify that the update has also triggered the function.
 11. Delete the newly created Document using the Data Explorer in Azure Cosmos DB Portal once you have seen the output in Azure Functions Console
