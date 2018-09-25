@@ -16,7 +16,6 @@ Prior to starting these labs, you must have the following operating system and s
 | Git | [/git-scm.com/downloads](https://git-scm.com/downloads) |
 | .NET Core 2.1 (or greater) SDK <sup>2</sup> | [/download.microsoft.com/dotnet-sdk-2.1](https://download.microsoft.com/download/E/2/6/E266C257-F7AF-4E79-8EA2-DF26031C84E2/dotnet-sdk-2.1.103-win-gs-x64.exe) |
 | Visual Studio Code | [/code.visualstudio.com/download](https://go.microsoft.com/fwlink/?Linkid=852157) |
-| Visual Studio | [/visualstudio.com/download](https://visualstudio.microsoft.com/vs/) |
 ---
 
 # Labs
@@ -25,7 +24,7 @@ Prior to starting these labs, you must have the following operating system and s
 
 - [Pre-lab: Creating an Azure Cosmos DB account](./lab/pre-lab.md)
 - Lab 1: Querying an Azure Cosmos DB Database using the SQL API
-- [Lab 2: Change Feed Demo ](./lab/ChangeFeed/AzureFunctionsReadMe.md)
+- [Lab 2: Change Feed Demo ](./lab/ChangeFeed/ChangeFeed_AzureFunctions_Portal.md)
 - [Lab 3: Spark Connector](./lab/SparkConnectionsDemo/readme.md)
 
 # Notes
