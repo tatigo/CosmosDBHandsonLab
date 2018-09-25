@@ -1,0 +1,11 @@
+D:\TechnicalWorkShops\lab\ChangeFeed\AuditTweetsProcessor\bin\Debug\netcoreapp2.1\AuditTweetsProcessor.deps.json
+D:\TechnicalWorkShops\lab\ChangeFeed\AuditTweetsProcessor\bin\Debug\netcoreapp2.1\AuditTweetsProcessor.runtimeconfig.json
+D:\TechnicalWorkShops\lab\ChangeFeed\AuditTweetsProcessor\bin\Debug\netcoreapp2.1\AuditTweetsProcessor.runtimeconfig.dev.json
+D:\TechnicalWorkShops\lab\ChangeFeed\AuditTweetsProcessor\bin\Debug\netcoreapp2.1\AuditTweetsProcessor.dll
+D:\TechnicalWorkShops\lab\ChangeFeed\AuditTweetsProcessor\bin\Debug\netcoreapp2.1\AuditTweetsProcessor.pdb
+D:\TechnicalWorkShops\lab\ChangeFeed\AuditTweetsProcessor\obj\Debug\netcoreapp2.1\AuditTweetsProcessor.csprojAssemblyReference.cache
+D:\TechnicalWorkShops\lab\ChangeFeed\AuditTweetsProcessor\obj\Debug\netcoreapp2.1\AuditTweetsProcessor.csproj.CoreCompileInputs.cache
+D:\TechnicalWorkShops\lab\ChangeFeed\AuditTweetsProcessor\obj\Debug\netcoreapp2.1\AuditTweetsProcessor.AssemblyInfoInputs.cache
+D:\TechnicalWorkShops\lab\ChangeFeed\AuditTweetsProcessor\obj\Debug\netcoreapp2.1\AuditTweetsProcessor.AssemblyInfo.cs
+D:\TechnicalWorkShops\lab\ChangeFeed\AuditTweetsProcessor\obj\Debug\netcoreapp2.1\AuditTweetsProcessor.dll
+D:\TechnicalWorkShops\lab\ChangeFeed\AuditTweetsProcessor\obj\Debug\netcoreapp2.1\AuditTweetsProcessor.pdb
