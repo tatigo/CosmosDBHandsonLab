@@ -5,7 +5,8 @@
 
 ## Create an Azure Function app
 
-[!INCLUDE [Create function app Azure portal](../../includes/functions-create-function-app-portal.md)]
+[!INCLUDE [Create function app Azure portal](./images/PortalAzureFunction-1.PNG)]
+[!INCLUDE [](./images/PortalAzureFunction-2.PNG)]
 
 Next, you create a function in the new function app.
 
