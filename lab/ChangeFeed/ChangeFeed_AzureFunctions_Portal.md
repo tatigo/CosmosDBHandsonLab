@@ -1,12 +1,10 @@
 # Deploy an Azure Functions App that montiors and reacts to Changes/Events in a Cosmos DB Collection via Cosmos DB Change Feed
 
 
-![View message in the logs.](./images/functions-create-cosmos-db-triggered-function/quickstart-completed.png)
-
 ## Create an Azure Function app
 
-[!INCLUDE [Create function app Azure portal](./images/PortalAzureFunction-1.PNG)]
-[!INCLUDE [](./images/PortalAzureFunction-2.PNG)]
+![Create function app Azure portal](./images/PortalAzureFunction-1.PNG)]
+![](./images/PortalAzureFunction-2.PNG)]
 
 Next, you create a function in the new function app.
 
