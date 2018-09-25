@@ -120,14 +120,10 @@ using Microsoft.Azure.Documents;
 
 public static void Run(IReadOnlyList<Document> documents, TraceWriter log)
 {
-    if (input != null && input.Count > 0)
-	{
-		log.LogInformation("Total Documents modified " + input.Count);
-
-		foreach (var doc in input)
-		{
-			log.LogInformation("Document Id " + doc.Id);
-		}
-	}
+    if (documents != null && documents.Count > 0)
+    {
+        log.Verbose("Documents modified " + documents.Count);
+        log.Verbose("First document Id " + documents[0].Id);
+    }
 }
 ```
