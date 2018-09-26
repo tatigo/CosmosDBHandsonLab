@@ -1,0 +1,11 @@
+{
+  "cosmos": {
+    "DbUrl": "https://tweet.documents.azure.com:443/",
+    "DbName": "TweetsDb",
+    "collectionName": "Tweets",
+    "LeaseCollectionName": "leases1",
+    "AuthorizationKey": "WSjpsMpyZUEzfD3DeNPmzxBEWl6jgpmnocKdEK7tssbqQ9EeOXhVf9IOpfx0we7erh7MobQ9FZgrRznwYo6m1w==",
+    "OfferThroughput": 200,
+    "MaxConnectionLimit": 400
+  }
+}
