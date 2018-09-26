@@ -2,7 +2,7 @@
 
 # Set variables for the new account, database, and collection
 resourceGroupName='myResourceGroup'
-location='southcentralus'
+location='eastus'
 name='tweet'
 databaseName='cosmoTweetsDb'
 collectionName='tweets'
